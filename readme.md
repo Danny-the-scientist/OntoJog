@@ -1,6 +1,6 @@
 # OntoJog
 
-OntoJog is a java based program to automatically generate owl files from delimited text files, database tables, or directly from Ontofox.
+OntoJog is a java based program to automatically generate owl files from delimited text files, database tables, or directly from Ontofox. Built from the ground up by @whinis (John Turner) with testing and coding assistance from me, but NO commits given from me.
 
 After compiling, the main use of OntoJog is to generate or QC an ontology using OntoJog’s swing based GUI . It is designed to allow for rapid development and iteration of ontologies via the use of a pseudo triples store in a mysql relational database keeping.  The database tracks classes  terms, definitions, external annotations and cross references, and simple axioms as well and assigns and tracks IDs to prevent conflicts. OntoJog also supports the generation to ontology modules. Edits to the database can be made quickly and by multiple users. Keeping the data in a single structured relational database facilitates systematic development, building, and QC of ontology modules.
 
